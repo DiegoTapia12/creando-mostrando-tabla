@@ -1,0 +1,9 @@
+CREATE DATABASE usuario;
+USE usuario;
+CREATE TABLE usuarios(
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(255) NOT NULL,
+  apellido VARCHAR(255) NOT NULL,
+  cdi VARCHAR(20) UNIQUE,
+  n_telefono VARCHAR(20) NOT NULL
+);
